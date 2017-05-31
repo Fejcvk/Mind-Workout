@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		F19B272F1EDEDCF9003504BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B272E1EDEDCF9003504BA /* AppDelegate.swift */; };
-		F19B27311EDEDCF9003504BA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B27301EDEDCF9003504BA /* FirstViewController.swift */; };
+		F19B27311EDEDCF9003504BA /* subjectHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B27301EDEDCF9003504BA /* subjectHistoryViewController.swift */; };
 		F19B27331EDEDCF9003504BA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B27321EDEDCF9003504BA /* SecondViewController.swift */; };
 		F19B27361EDEDCF9003504BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19B27341EDEDCF9003504BA /* Main.storyboard */; };
 		F19B27381EDEDCF9003504BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19B27371EDEDCF9003504BA /* Assets.xcassets */; };
 		F19B273B1EDEDCF9003504BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19B27391EDEDCF9003504BA /* LaunchScreen.storyboard */; };
+		F19B27431EDEE2D8003504BA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B27421EDEE2D8003504BA /* PageViewController.swift */; };
+		F19B27471EDF44CD003504BA /* subjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B27461EDF44CD003504BA /* subjectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F19B272B1EDEDCF9003504BA /* Mind Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mind Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19B272E1EDEDCF9003504BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F19B27301EDEDCF9003504BA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F19B27301EDEDCF9003504BA /* subjectHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subjectHistoryViewController.swift; sourceTree = "<group>"; };
 		F19B27321EDEDCF9003504BA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F19B27351EDEDCF9003504BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F19B27371EDEDCF9003504BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F19B273A1EDEDCF9003504BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F19B273C1EDEDCF9003504BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19B27421EDEE2D8003504BA /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		F19B27461EDF44CD003504BA /* subjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = subjectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				F19B272E1EDEDCF9003504BA /* AppDelegate.swift */,
-				F19B27301EDEDCF9003504BA /* FirstViewController.swift */,
+				F19B27421EDEE2D8003504BA /* PageViewController.swift */,
+				F19B27301EDEDCF9003504BA /* subjectHistoryViewController.swift */,
 				F19B27321EDEDCF9003504BA /* SecondViewController.swift */,
 				F19B27341EDEDCF9003504BA /* Main.storyboard */,
 				F19B27371EDEDCF9003504BA /* Assets.xcassets */,
 				F19B27391EDEDCF9003504BA /* LaunchScreen.storyboard */,
 				F19B273C1EDEDCF9003504BA /* Info.plist */,
+				F19B27461EDF44CD003504BA /* subjectViewController.swift */,
 			);
 			path = "Mind Workout";
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			files = (
 				F19B27331EDEDCF9003504BA /* SecondViewController.swift in Sources */,
 				F19B272F1EDEDCF9003504BA /* AppDelegate.swift in Sources */,
-				F19B27311EDEDCF9003504BA /* FirstViewController.swift in Sources */,
+				F19B27311EDEDCF9003504BA /* subjectHistoryViewController.swift in Sources */,
+				F19B27471EDF44CD003504BA /* subjectViewController.swift in Sources */,
+				F19B27431EDEE2D8003504BA /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +316,7 @@
 				F19B27411EDEDCF9003504BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
