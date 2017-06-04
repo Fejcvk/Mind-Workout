@@ -10,7 +10,7 @@
 		F19B272F1EDEDCF9003504BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B272E1EDEDCF9003504BA /* AppDelegate.swift */; };
 		F19B27311EDEDCF9003504BA /* subjectHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B27301EDEDCF9003504BA /* subjectHistoryViewController.swift */; };
 		F19B27331EDEDCF9003504BA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B27321EDEDCF9003504BA /* SecondViewController.swift */; };
-		F19B27361EDEDCF9003504BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19B27341EDEDCF9003504BA /* Main.storyboard */; };
+		F19B27361EDEDCF9003504BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19B27341EDEDCF9003504BA /* Main.storyboard */; settings = {ASSET_TAGS = (FirstTask, ); }; };
 		F19B27381EDEDCF9003504BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19B27371EDEDCF9003504BA /* Assets.xcassets */; };
 		F19B273B1EDEDCF9003504BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19B27391EDEDCF9003504BA /* LaunchScreen.storyboard */; };
 		F19B27431EDEE2D8003504BA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19B27421EDEE2D8003504BA /* PageViewController.swift */; };
@@ -99,6 +99,9 @@
 		F19B27231EDEDCF9003504BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					FirstTask,
+				);
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Tomasz Fejcak";

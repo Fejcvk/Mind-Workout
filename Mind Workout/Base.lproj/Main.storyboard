@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -15,7 +14,7 @@
             <objects>
                 <tableViewController title="subjectHistoryViewController" id="7TU-tc-nHr" customClass="subjectHistoryViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="pHl-NH-qDg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <connections>
@@ -38,35 +37,15 @@
                         <viewControllerLayoutGuide type="bottom" id="i9s-Wa-J1f"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="BiologyViewController" id="LnS-HI-KCV" customClass="SubjectViewController">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cd7-6d-77u">
-                                <rect key="frame" x="87" y="28" width="200" height="126"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="8sn-5N-qAK"/>
-                                    <constraint firstAttribute="height" constant="60" id="CUK-Yf-A5c"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="GBh-MQ-JfB"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="uLh-5h-M4q"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.18646851162468181" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <accessibility key="accessibilityConfiguration" identifier="BiologyViewController"/>
-                        <constraints>
-                            <constraint firstItem="i9s-Wa-J1f" firstAttribute="top" secondItem="cd7-6d-77u" secondAttribute="bottom" constant="513" id="Tta-B3-DHG"/>
-                            <constraint firstItem="cd7-6d-77u" firstAttribute="top" secondItem="LNe-pK-qZO" secondAttribute="bottom" constant="8" id="cYe-UD-pnc"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="cd7-6d-77u" secondAttribute="trailing" constant="72" id="wqG-jt-uNU"/>
-                            <constraint firstItem="cd7-6d-77u" firstAttribute="leading" secondItem="LnS-HI-KCV" secondAttribute="leadingMargin" constant="71" id="yUv-7f-9MJ"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ujb-2t-7G7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2553" y="708"/>
+            <point key="canvasLocation" x="2552.8000000000002" y="707.49625187406298"/>
         </scene>
         <!--Today's tasks-->
         <scene sceneID="cqT-gk-jMn">
@@ -87,36 +66,42 @@
                         <viewControllerLayoutGuide type="bottom" id="Xcz-Bm-2aa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="ChemistryViewController" id="llC-6H-a2z" customClass="SubjectViewController">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Js-gt-U0P">
-                                <rect key="frame" x="87" y="28" width="200" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="08l-sF-8nC"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="YfA-gu-20b"/>
-                                    <constraint firstAttribute="width" constant="200" id="qKf-y4-pLa"/>
-                                    <constraint firstAttribute="height" constant="60" id="uC1-JU-vnX"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.06950727541403523" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <accessibility key="accessibilityConfiguration" identifier="ChemistryViewController"/>
-                        <constraints>
-                            <constraint firstItem="8Js-gt-U0P" firstAttribute="top" secondItem="AJp-BM-qLm" secondAttribute="bottom" constant="8" id="CFA-xq-kM5"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="8Js-gt-U0P" secondAttribute="trailing" constant="72" id="DC2-Zg-x0t"/>
-                            <constraint firstItem="Xcz-Bm-2aa" firstAttribute="top" secondItem="8Js-gt-U0P" secondAttribute="bottom" constant="579" id="kep-S3-0qg"/>
-                            <constraint firstItem="8Js-gt-U0P" firstAttribute="top" secondItem="AJp-BM-qLm" secondAttribute="bottom" constant="8" id="lMb-zD-Agm"/>
-                            <constraint firstItem="8Js-gt-U0P" firstAttribute="leading" secondItem="llC-6H-a2z" secondAttribute="leadingMargin" constant="71" id="rYF-55-Hb5"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QQ0-qQ-vbV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2552.8000000000002" y="28.335832083958024"/>
+            <point key="canvasLocation" x="2552" y="20"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qJj-2B-RGA">
+            <objects>
+                <viewController id="0Hk-pI-ZrZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MCI-Fy-MSa"/>
+                        <viewControllerLayoutGuide type="bottom" id="vx8-rR-8Q4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Adf-Lc-GEN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Well done, you have already done task for today. Come back tomorrow" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YW4-E5-5yb">
+                                <rect key="frame" x="0.0" y="197" width="320" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Vu-kl-Bck" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3830.625" y="20.070422535211268"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eiV-ad-DJc">
@@ -126,34 +111,95 @@
                         <viewControllerLayoutGuide type="top" id="1H3-oR-h8q"/>
                         <viewControllerLayoutGuide type="bottom" id="psv-GU-VN5"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Pc7-SY-4Od">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="MathViewController" id="Pc7-SY-4Od" customClass="SubjectViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWd-8v-qyk">
-                                <rect key="frame" x="87" y="28" width="200" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="Aso-yK-3uu"/>
-                                    <constraint firstAttribute="height" constant="60" id="ydL-oF-eEs"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="SubjectName" text="Subject name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8IM-Db-dPo">
+                                <rect key="frame" x="115" y="50" width="184.5" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ter-ni-eDd">
+                                <rect key="frame" x="16" y="106" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="FirstTaskContent" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86d-Mu-1kg">
+                                <rect key="frame" x="16" y="149" width="288" height="63"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet scelerisque massa. Etiam sit amet consequat diam, ut dictum urna. Quisque erat sapien, dapibus quis erat nec, blandit </string>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="SecondTaskContent" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UlR-gi-8Um">
+                                <rect key="frame" x="16" y="277" width="288" height="63"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet scelerisque massa. Etiam sit amet consequat diam, ut dictum urna. Quisque erat sapien, dapibus quis erat nec, blandit </string>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="ThirdTaskContent" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="poa-jX-fuJ">
+                                <rect key="frame" x="16" y="392" width="288" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet scelerisque massa. Etiam sit amet consequat diam, ut dictum urna. Quisque erat sapien, dapibus quis erat nec, blandit </string>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" restorationIdentifier="ThirdSubjectToggle" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rJa-kk-qXP">
+                                <rect key="frame" x="251" y="353" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" restorationIdentifier="SecondSubjectToggle" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4qN-Xn-08u">
+                                <rect key="frame" x="251" y="229" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Second task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urE-fD-MWh">
+                                <rect key="frame" x="16" y="234" width="88" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" restorationIdentifier="FirstSubjectToggle" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FnG-qu-v1n">
+                                <rect key="frame" x="251" y="101" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Third task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raO-fq-0WJ">
+                                <rect key="frame" x="16" y="569" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="DoneBtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqF-Qu-3ke">
+                                <rect key="frame" x="123" y="500" width="75" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="30"/>
+                                <state key="normal" title="Done"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Third task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQc-le-WbV">
+                                <rect key="frame" x="16" y="358" width="88" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="1" blue="0.10263642399680561" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <accessibility key="accessibilityConfiguration" identifier="MathViewController"/>
-                        <constraints>
-                            <constraint firstItem="GWd-8v-qyk" firstAttribute="top" secondItem="1H3-oR-h8q" secondAttribute="bottom" constant="8" id="JSL-Jq-Abv"/>
-                            <constraint firstItem="psv-GU-VN5" firstAttribute="top" secondItem="GWd-8v-qyk" secondAttribute="bottom" constant="579" id="Nar-Ao-grI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="GWd-8v-qyk" secondAttribute="trailing" constant="72" id="enS-zP-WCj"/>
-                            <constraint firstItem="GWd-8v-qyk" firstAttribute="leading" secondItem="Pc7-SY-4Od" secondAttribute="leadingMargin" constant="71" id="yZw-wx-bJ7"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bCu-mp-dVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2552.8000000000002" y="-640.02998500749629"/>
+            <point key="canvasLocation" x="2551.875" y="-640.14084507042253"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
